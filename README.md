@@ -1,5 +1,11 @@
 # Transformer 中文笔记
 
+<p align="center">
+  <img src="https://img.shields.io/badge/articles-3-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
+  <img src="https://img.shields.io/badge/status-active-success" alt="series active">
+</p>
+
 用中文由浅入深讲解 Transformer 架构：从直觉出发，连接数学推导与实际计算，明确每个结论成立的条件。
 
 适合希望理解注意力机制、位置编码及 Transformer 内部计算的读者。文章采用 GitHub Markdown，可直接阅读公式和示意图。
@@ -7,7 +13,7 @@
 ## 阅读目录
 
 | 编号 | 文章 | 核心问题 |
-| --- | --- | --- |
+|:-:|---|---|
 | 01 | [正余弦位置编码如何影响注意力打分](articles/01-sinusoidal-positional-encoding-and-attention.md) | 位置信息如何进入 Q、K？相对位移性质为什么不等于纯相对位置打分？ |
 | 02 | [缩放点积注意力：为什么除以 √d_k](articles/02-scaled-dot-product-attention.md) | 点积的方差为什么是 d_k？缩放如何影响 softmax 形态与梯度？ |
 | 03 | [多头注意力：不同的头究竟在学习什么？](articles/03-multi-head-attention.md) | 不同的头为什么能学到不同的东西？多头注意力的参数量真的变多了吗？ |
