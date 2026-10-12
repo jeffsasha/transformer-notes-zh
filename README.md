@@ -9,6 +9,7 @@
 | 编号 | 文章 | 核心问题 |
 | --- | --- | --- |
 | 01 | [正余弦位置编码如何影响注意力打分](articles/01-sinusoidal-positional-encoding-and-attention.md) | 位置信息如何进入 Q、K？相对位移性质为什么不等于纯相对位置打分？ |
+| 02 | [缩放点积注意力：为什么除以 √d_k](articles/02-scaled-dot-product-attention.md) | 点积的方差为什么是 d_k？缩放如何影响 softmax 形态与梯度？ |
 
 ## 第一篇的阅读路线
 
@@ -20,7 +21,6 @@
 
 以下为选题方向，尚未发布：
 
-- 缩放点积注意力：为什么除以 sqrt(d_k)？
 - 多头注意力：不同的头究竟在学习什么？
 - 因果 mask 与自回归生成。
 - RoPE 的二维旋转推导与实现。
