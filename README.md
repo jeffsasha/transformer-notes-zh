@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-4-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-5-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -18,6 +18,7 @@
 | 02 | [缩放点积注意力：为什么除以 √d_k](articles/02-scaled-dot-product-attention.md) | 点积的方差为什么是 d_k？缩放如何影响 softmax 形态与梯度？ |
 | 03 | [多头注意力：不同的头究竟在学习什么？](articles/03-multi-head-attention.md) | 不同的头为什么能学到不同的东西？多头注意力的参数量真的变多了吗？ |
 | 04 | [因果 mask 与自回归生成](articles/04-causal-mask-and-autoregressive-generation.md) | 训练为什么能并行、生成必须逐词？mask 如何保证"看不见未来"？ |
+| 05 | [RoPE 的二维旋转推导与实现](articles/05-rope-rotation-derivation.md) | 旋转后的打分为什么只依赖相对位移？快慢频率各自负责什么？ |
 
 ## 第一篇的阅读路线
 
@@ -29,7 +30,6 @@
 
 以下为选题方向，尚未发布：
 
-- RoPE 的二维旋转推导与实现。
 - 残差连接、LayerNorm 与前馈网络。
 - 从 Encoder、Decoder 到完整 Transformer。
 
