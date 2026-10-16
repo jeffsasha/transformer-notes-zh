@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-6-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-7-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -20,18 +20,13 @@
 | 04 | [因果 mask 与自回归生成](articles/04-causal-mask-and-autoregressive-generation.md) | 训练为什么能并行、生成必须逐词？mask 如何保证"看不见未来"？ |
 | 05 | [RoPE 的二维旋转推导与实现](articles/05-rope-rotation-derivation.md) | 旋转后的打分为什么只依赖相对位移？快慢频率各自负责什么？ |
 | 06 | [残差连接、LayerNorm 与前馈网络](articles/06-residual-layernorm-ffn.md) | 梯度如何穿过深层网络？归一化与逐位置变换各自解决什么问题？ |
+| 07 | [从 Encoder、Decoder 到完整 Transformer](articles/07-encoder-decoder-full-transformer.md) | Encoder 和 Decoder 如何协作完成序列到序列任务？交叉注意力的 Q、K、V 分别来自哪里？ |
 
 ## 第一篇的阅读路线
 
 位置与顺序 → 多频率正余弦 → Q/K 投影 → 打分的四项展开 → 相对位移性质 → softmax 权重 → 与 RoPE 的联系。
 
 文章包含完整推导、数值示例、常见误区及自测题。想先建立直觉，可以先读第 1—3 节和第 7 节，再回到推导。
-
-## 后续选题方向
-
-以下为选题方向，尚未发布：
-
-- 从 Encoder、Decoder 到完整 Transformer。
 
 ## 内容原则
 
