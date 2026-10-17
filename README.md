@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-7-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-8-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -21,6 +21,7 @@
 | 05 | [RoPE 的二维旋转推导与实现](articles/05-rope-rotation-derivation.md) | 旋转后的打分为什么只依赖相对位移？快慢频率各自负责什么？ |
 | 06 | [残差连接、LayerNorm 与前馈网络](articles/06-residual-layernorm-ffn.md) | 梯度如何穿过深层网络？归一化与逐位置变换各自解决什么问题？ |
 | 07 | [从 Encoder、Decoder 到完整 Transformer](articles/07-encoder-decoder-full-transformer.md) | Encoder 和 Decoder 如何协作完成序列到序列任务？交叉注意力的 Q、K、V 分别来自哪里？ |
+| 08 | [KV Cache：推理时为什么能省计算](articles/08-kv-cache.md) | 生成时每一步在重复算什么？缓存 K、V 如何把每步计算从 O(t·d²) 降到 O(d²)，又付出了多少内存？ |
 
 ## 第一篇的阅读路线
 
