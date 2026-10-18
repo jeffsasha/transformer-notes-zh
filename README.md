@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-8-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-9-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -22,6 +22,7 @@
 | 06 | [残差连接、LayerNorm 与前馈网络](articles/06-residual-layernorm-ffn.md) | 梯度如何穿过深层网络？归一化与逐位置变换各自解决什么问题？ |
 | 07 | [从 Encoder、Decoder 到完整 Transformer](articles/07-encoder-decoder-full-transformer.md) | Encoder 和 Decoder 如何协作完成序列到序列任务？交叉注意力的 Q、K、V 分别来自哪里？ |
 | 08 | [KV Cache：推理时为什么能省计算](articles/08-kv-cache.md) | 生成时每一步在重复算什么？缓存 K、V 如何把每步计算从 O(t·d²) 降到 O(d²)，又付出了多少内存？ |
+| 09 | [GQA/MQA：注意力头的参数共享](articles/09-gqa-mqa.md) | query 头数不变、只共享 K/V 头，为什么能省内存？压缩带来的秩约束代价是什么？ |
 
 ## 第一篇的阅读路线
 
