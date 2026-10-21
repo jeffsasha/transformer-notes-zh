@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-11-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-12-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -25,6 +25,7 @@
 | 09 | [GQA/MQA：注意力头的参数共享](articles/09-gqa-mqa.md) | query 头数不变、只共享 K/V 头，为什么能省内存？压缩带来的秩约束代价是什么？ |
 | 10 | [训练目标：交叉熵与 teacher forcing](articles/10-training-objective.md) | 模型到底在优化什么？训练喂真实词、推理喂自己词，这两者之间的鸿沟叫什么？ |
 | 11 | [解码策略：temperature / top-p / top-k](articles/11-decoding-strategies.md) | 温度如何改变分布形态？top-k 与 top-p 截断的本质区别是什么？ |
+| 12 | [Adam 优化器直觉：动量与自适应学习率](articles/12-adam-optimizer.md) | 动量如何平滑震荡并加速？自适应学习率怎样给每个参数定制步长？ |
 
 ## 第一篇的阅读路线
 
