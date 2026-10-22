@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-12-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-13-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -26,6 +26,7 @@
 | 10 | [训练目标：交叉熵与 teacher forcing](articles/10-training-objective.md) | 模型到底在优化什么？训练喂真实词、推理喂自己词，这两者之间的鸿沟叫什么？ |
 | 11 | [解码策略：temperature / top-p / top-k](articles/11-decoding-strategies.md) | 温度如何改变分布形态？top-k 与 top-p 截断的本质区别是什么？ |
 | 12 | [Adam 优化器直觉：动量与自适应学习率](articles/12-adam-optimizer.md) | 动量如何平滑震荡并加速？自适应学习率怎样给每个参数定制步长？ |
+| 13 | [学习率 warmup：为什么训练开头要用小学习率？](articles/13-learning-rate-warmup.md) | 训练初期梯度噪声大、Adam 第一步几乎只认方向不认大小，warmup 如何把学习率从 0 线性拉大来避开发散？ |
 
 ## 第一篇的阅读路线
 
