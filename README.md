@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-15-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-16-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -28,7 +28,8 @@
 | 12 | [Adam 优化器直觉：动量与自适应学习率](articles/12-adam-optimizer.md) | 动量如何平滑震荡并加速？自适应学习率怎样给每个参数定制步长？ |
 | 13 | [学习率 warmup：为什么训练开头要用小学习率？](articles/13-learning-rate-warmup.md) | 训练初期梯度噪声大、Adam 第一步几乎只认方向不认大小，warmup 如何把学习率从 0 线性拉大来避开发散？ |
 | 14 | [FlashAttention 直觉：IO 才是注意力的真正瓶颈](articles/14-flashattention.md) | 注意力的瓶颈为什么是显存读写而不是计算？分块和在线 softmax 如何在不存 N×N 矩阵的情况下得到完全相同的结果？ |
-| 15 | [混合精度训练](articles/15-mixed-precision-training.md) | 为什么 fp16 算得快却不能直接拿来训练？主权重、loss scaling 如何把精度和速度都保住？ |
+| 15 | [混合精度训练](articles/15-mixed-precision-training.md) |
+| 16 | [梯度检查点：用时间换显存](articles/16-gradient-checkpointing.md) | 反向传播为什么必须存下每层账本？只存段边界、需要时重算，如何把显存从 O(n) 压到 O(√n)？ | 为什么 fp16 算得快却不能直接拿来训练？主权重、loss scaling 如何把精度和速度都保住？ |
 
 ## 第一篇的阅读路线
 
