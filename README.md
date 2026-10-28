@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-18-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-19-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -32,6 +32,7 @@
 | 16 | [梯度检查点：用时间换显存](articles/16-gradient-checkpointing.md) | 反向传播为什么必须存下每层账本？只存段边界、需要时重算，如何把显存从 O(n) 压到 O(√n)？ |
 | 17 | [RLHF 直觉：从人类偏好到奖励模型](articles/17-rlhf-preference-reward-model.md) | 人类只说\"这个回答更好\"、没有打分，奖励模型怎么从成对比较里学出一个标量分数？KL 惩罚又为什么能防止模型为了刷分走偏？ |
 | 18 | [混合专家 MoE 直觉：只激活一部分参数，为什么反而更强？](articles/18-mixture-of-experts.md) | 只激活一两个专家，总参数变大、单步计算却不爆炸，代价是什么？ |
+| 19 | [DPO 直觉：不用奖励模型，怎么直接从偏好学对齐？](articles/19-dpo-direct-preference-optimization.md) | 奖励模型和 PPO 都可以省掉吗？最优策略本身如何反解出奖励？ |
 
 ## 第一篇的阅读路线
 
