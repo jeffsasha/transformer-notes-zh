@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-20-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-21-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -34,6 +34,7 @@
 | 18 | [混合专家 MoE 直觉：只激活一部分参数，为什么反而更强？](articles/18-mixture-of-experts.md) | 只激活一两个专家，总参数变大、单步计算却不爆炸，代价是什么？ |
 | 19 | [DPO 直觉：不用奖励模型，怎么直接从偏好学对齐？](articles/19-dpo-direct-preference-optimization.md) | 奖励模型和 PPO 都可以省掉吗？最优策略本身如何反解出奖励？ |
 | 20 | [LoRA 微调直觉：低秩更新为什么够用？](articles/20-lora-low-rank-adaptation.md) | 只训 $r(d+k)$ 个参数，为什么能逼近全参数微调？低秩假设的边界在哪里？ |
+| 21 | [量化直觉：把权重压到 8-bit/4-bit，为什么模型还没坏？](articles/21-quantization-intuition.md) | int8/int4 的舍入误差上限是多少？为什么误差没把模型压垮？ |
 
 ## 第一篇的阅读路线
 
