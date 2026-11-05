@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-25-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-26-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -39,6 +39,7 @@
 | 23 | [学习率调度：warmup 之后，为什么还要让学习率衰减？](articles/23-learning-rate-schedule.md) | 恒定学习率为什么会在最优解附近打转？衰减如何把噪声球越缩越小，又为什么要在总步数确定后才谈衰减？ |
 | 24 | [Scaling Law 直觉：参数、数据、算力怎么分配？](articles/24-scaling-law.md) | 算力约束 C ≈ 6ND 是怎么来的？固定算力下参数量 N 和数据量 D 为什么要按比例一起增长？ |
 | 25 | [梯度裁剪：为什么大梯度会炸掉训练？](articles/25-gradient-clipping.md) | 梯度范数过大时，一步更新为什么会把参数推出山谷？裁剪只缩短步长、不改变方向，又为什么不能掩盖真正的问题？ |
+| 26 | [位置外推：训练短、推理长时为什么会崩？](articles/26-length-extrapolation.md) | 序列变长时，softmax 分母、RoPE 旋转角和位置向量各出了什么问题？ |
 
 ## 第一篇的阅读路线
 
