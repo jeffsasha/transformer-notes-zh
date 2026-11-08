@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-27-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-28-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -41,6 +41,7 @@
 | 25 | [梯度裁剪：为什么大梯度会炸掉训练？](articles/25-gradient-clipping.md) | 梯度范数过大时，一步更新为什么会把参数推出山谷？裁剪只缩短步长、不改变方向，又为什么不能掩盖真正的问题？ |
 | 26 | [位置外推：训练短、推理长时为什么会崩？](articles/26-length-extrapolation.md) | 序列变长时，softmax 分母、RoPE 旋转角和位置向量各出了什么问题？ |
 | 27 | [注意力 sink：为什么开头几个 token 总吸走注意力？](articles/27-attention-sink.md) | softmax 的权重和必须为 1，模型把多余的注意力“倒”去了哪里？为什么删掉开头几个 token，模型就崩了？ |
+| 28 | [权重初始化：为什么深层网络一开始就要把方差算对？](articles/28-weight-initialization.md) | 初始化标准差差一点点，十层之后信号就缩水百万倍或爆炸亿倍，方差该按什么公式算？ |
 
 ## 第一篇的阅读路线
 
