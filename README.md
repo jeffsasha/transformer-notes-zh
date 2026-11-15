@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-32-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-33-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -46,6 +46,7 @@
 | 30 | [Batch Size 与学习率：大 batch 为什么要配大学习率？](articles/30-batch-size-and-learning-rate.md) | batch 翻倍时学习率为什么也要翻倍？超过临界 batch size 后再加 batch 为什么只剩浪费算力？ |
 | 31 | [数据并行与张量并行](articles/31-data-parallelism-and-tensor-parallelism.md) | 数据、参数、梯度三种切分方式各解决什么问题？all-reduce 的通信量为什么是 2S？ |
 | 32 | [ZeRO：单卡显存怎么从 16Ψ 降到 16Ψ/N？](articles/32-zero-redundancy-optimizer.md) | 数据并行每张卡都存着 3 份相同的模型状态，ZeRO 把参数、梯度和优化器状态切开后，显存降了多少、通信又多了多少？ |
+| 33 | [流水线并行：把模型切成段，为什么还有一半时间在等？](articles/33-pipeline-parallelism.md) | P 段流水线、M 个 micro-batch 时气泡占比为什么是 (P-1)/(M+P-1)？1F1B 如何把激活显存从 M 份压到 P 份？ |
 
 ## 第一篇的阅读路线
 
