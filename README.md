@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-35-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-36-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -49,6 +49,7 @@
 | 33 | [流水线并行：把模型切成段，为什么还有一半时间在等？](articles/33-pipeline-parallelism.md) | P 段流水线、M 个 micro-batch 时气泡占比为什么是 (P-1)/(M+P-1)？1F1B 如何把激活显存从 M 份压到 P 份？ |
 | 34 | [通信原语：all-reduce、all-gather 与 reduce-scatter 是怎么算出来的？](articles/34-communication-primitives.md) | all-reduce 的 2S 是怎么来的？ring 为什么是带宽最优、小消息为什么反而要用树？ |
 | 35 | [专家并行与 all-to-all：MoE 的 token 是怎么跨卡路由的？](articles/35-expert-parallelism-and-all-to-all.md) | 专家分到不同卡上后，token 怎么跨卡找到自己的专家？一次 all-to-all 每卡要传多少、为什么总量不随卡数线性增长？ |
+| 36 | [三维并行与混合并行：DP、TP、PP、EP 怎么拼成一张训练图？](articles/36-3d-parallelism-and-hybrid-strategy.md) | 四种并行各切什么维度？拼在一起时显存和通信量怎么叠加、分组又该怎么选？ |
 
 ## 第一篇的阅读路线
 
