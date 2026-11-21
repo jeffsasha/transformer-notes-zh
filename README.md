@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-37-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-38-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -51,6 +51,7 @@
 | 35 | [专家并行与 all-to-all：MoE 的 token 是怎么跨卡路由的？](articles/35-expert-parallelism-and-all-to-all.md) | 专家分到不同卡上后，token 怎么跨卡找到自己的专家？一次 all-to-all 每卡要传多少、为什么总量不随卡数线性增长？ |
 | 36 | [三维并行与混合并行：DP、TP、PP、EP 怎么拼成一张训练图？](articles/36-3d-parallelism-and-hybrid-strategy.md) | 四种并行各切什么维度？拼在一起时显存和通信量怎么叠加、分组又该怎么选？ |
 | 37 | [PagedAttention：KV 缓存碎片化怎么解决？](articles/37-paged-attention.md) | 每 token 的 KV 缓存是多大？分页怎么把浪费压到每条请求不到一个块？ |
+| 38 | [连续批处理：请求来了就插队，GPU 为什么不能闲着？](articles/38-continuous-batching.md) | 静态批处理为什么浪费超过一半算力？每步重新组 batch 后，吞吐量和延迟各变了多少？ |
 
 ## 第一篇的阅读路线
 
