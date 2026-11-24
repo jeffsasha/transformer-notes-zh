@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-40-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-41-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -54,6 +54,7 @@
 | 38 | [连续批处理：请求来了就插队，GPU 为什么不能闲着？](articles/38-continuous-batching.md) | 静态批处理为什么浪费超过一半算力？每步重新组 batch 后，吞吐量和延迟各变了多少？ |
 | 39 | [推测解码：用小模型猜、大模型验，为什么推理能快 2–3 倍？](articles/39-speculative-decoding.md) | 小模型先猜 γ 个 token、大模型一次并行验证，输出分布严格不变，加速来自哪里、又受什么上限？ |
 | 40 | [SwiGLU：门控激活为什么取代了 ReLU？](articles/40-swiglu-gated-activation.md) | 门控如何让 FFN 自己决定放行哪些维度？三个矩阵的代价又为什么是隐藏层缩到 2/3？ |
+| 41 | [滑动窗口注意力：只看邻居，为什么长文还能读懂？](articles/41-sliding-window-attention.md) | 窗口只留最近 w 个 token，计算量和 KV 缓存怎么变？层叠之后感受野又能伸多远？ |
 
 ## 第一篇的阅读路线
 
