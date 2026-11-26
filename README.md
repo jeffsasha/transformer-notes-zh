@@ -1,7 +1,7 @@
 # Transformer 中文笔记
 
 <p align="center">
-  <img src="https://img.shields.io/badge/articles-42-brightgreen" alt="articles published">
+  <img src="https://img.shields.io/badge/articles-43-brightgreen" alt="articles published">
   <img src="https://img.shields.io/badge/new_article-daily-blue" alt="one new article every day">
   <img src="https://img.shields.io/badge/status-active-success" alt="series active">
 </p>
@@ -56,6 +56,7 @@
 | 40 | [SwiGLU：门控激活为什么取代了 ReLU？](articles/40-swiglu-gated-activation.md) | 门控如何让 FFN 自己决定放行哪些维度？三个矩阵的代价又为什么是隐藏层缩到 2/3？ |
 | 41 | [滑动窗口注意力：只看邻居，为什么长文还能读懂？](articles/41-sliding-window-attention.md) | 窗口只留最近 w 个 token，计算量和 KV 缓存怎么变？层叠之后感受野又能伸多远？ |
 | 42 | [MLA：把 KV 压成一个潜向量，为什么推理显存省了十几倍？](articles/42-multi-head-latent-attention.md) | K、V 先压成一个低维潜向量再展开，KV 缓存能省多少、表达能力又丢了多少？ |
+| 43 | [前缀缓存：相同的系统提示词，为什么只算一次就够了？](articles/43-prefix-caching.md) | 相同的系统提示词算一次就够了吗？块级哈希链和基数树怎么找到最长可复用前缀？ |
 
 ## 第一篇的阅读路线
 
